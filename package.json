@@ -1,0 +1,21 @@
+{
+	"name": "backpage",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"svelte": "^4.0.5",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/kit": "^1.22.4",
+		"axios": "^1.4.0",
+		"papaparse": "^5.4.1"
+	}
+}
